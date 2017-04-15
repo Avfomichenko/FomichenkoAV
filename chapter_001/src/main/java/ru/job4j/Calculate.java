@@ -1,6 +1,6 @@
 package ru.job4j;
 /**
-* Class КЉласс длЯ вывода на экран строки.
+* Class В РљР»Р°СЃСЃ РґР»СЏ РІС‹РІРѕРґР° РЅР° СЌРєСЂР°РЅ СЃС‚СЂРѕРєРё.
 * @author fomichenkoav	
 * @since 13.07.2017
 * @version 1
@@ -8,7 +8,7 @@ package ru.job4j;
 public  class Calculate {
 	
 /**
-* Љонструктор, вывод строки в консоль.
+* РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ, РІС‹РІРѕРґ СЃС‚СЂРѕРєРё РІ РєРѕРЅСЃРѕР»СЊ.
 * @param arg - arg.
 */
 	public static void main(String[] args) {
