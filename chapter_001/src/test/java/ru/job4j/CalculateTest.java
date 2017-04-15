@@ -7,15 +7,14 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 /**
-* Class Test
-* @author fomichenkoav	
-* @since 0.1
-* @version $Id$
+*Class Test.
+*@author fomichenkoav
+*@since 15.04.2017
+*@version $Id$
 */
-public  class CalculateTest{
-
+public  class CalculateTest {
 /**
-* Test add.
+*Test add.
 */
 	@Test
 	public void whenAddOneToOneThenTwo() {
@@ -32,4 +31,4 @@ public  class CalculateTest{
 				)
 		);
 	}
-} 
+}
