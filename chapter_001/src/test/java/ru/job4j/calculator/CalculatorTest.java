@@ -23,12 +23,12 @@ public  class CalculatorTest {
         assertThat(result, is(expected));
     }
 	/**
-     *Test subtract.
+     *Test substruct.
      */
     @Test
     public void whenAddTwoDeductOneThenOne() {
         Calculator calc = new Calculator();
-        calc.subtract(2D, 1D);
+        calc.substruct(2D, 1D);
         double result = calc.getResult();
         double expected = 1D;
         assertThat(result, is(expected));
