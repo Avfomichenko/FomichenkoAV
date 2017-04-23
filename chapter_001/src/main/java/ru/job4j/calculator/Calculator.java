@@ -24,7 +24,7 @@ public class Calculator {
 *@param  first число
 *@param  second число
 */
-	public void subtract(double first, double second) {
+	public void substruct(double first, double second) {
         this.result = first - second;
     }
 /**
@@ -40,7 +40,7 @@ public class Calculator {
 *@param  first число
 *@param  second число
 */
-	public void substruct(double first, double second) {
+	public void multiple(double first, double second) {
         this.result = first * second;
     }
 /**
