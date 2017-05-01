@@ -18,8 +18,8 @@ public class MaxTest {
     @Test
     public void maximumNumberOfFirstAndSecond() {
         Max max = new Max();
-        int result =  max.max(4, 1);
-        int expected = 4;
+        int result =  max.max(4, 1, 5);
+        int expected = 5;
         assertThat(result, is(expected));
     }
 }
