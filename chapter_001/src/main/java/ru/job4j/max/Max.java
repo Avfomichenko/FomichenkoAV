@@ -13,11 +13,7 @@ public class Max {
 	 *@param first  число
 	 *@param second число
   */
-  public int max(int first, int second) {
-      int max = first < second ? second : first;
-      return max;
-
-    }
-
-
+    public int max(int first, int second, int third) {
+        return Math.max(first, Math.max(second, third));
+         }
 }
