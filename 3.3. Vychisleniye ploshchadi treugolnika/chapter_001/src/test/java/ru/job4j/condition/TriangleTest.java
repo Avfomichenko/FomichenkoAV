@@ -1,7 +1,7 @@
 package test.java.ru.job4j.condition;
 
 import org.junit.Test;
-import static org.hamcrest.number.IsCloseTo.closeTo;a
+import static org.hamcrest.number.IsCloseTo.closeTo;
 import static org.junit.Assert.assertThat;
 /**
  * @author Fomichenkoav.
