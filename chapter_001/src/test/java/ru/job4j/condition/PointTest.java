@@ -1,6 +1,5 @@
-package test.java.ru.job4j.condition;
+package ru.job4j.condition;
 
-import main.java.ru.job4j.condition.Point;
 import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;

@@ -1,4 +1,4 @@
-package test.java.ru.job4j.condition;
+package ru.job4j.condition;
 
 import org.junit.Test;
 import static org.hamcrest.number.IsCloseTo.closeTo;
@@ -14,9 +14,9 @@ public class TriangleTest {
      */
     @Test
     public void areaOfTriangle() {
-        /**Point point = new Point(2, 6);
+        Point point = new Point();
         boolean result = point.is(2, 2);
         int expected = 6;
-        assertThat(result, closeTo(except, 0.01));;
+        assertThat(result, closeTo(except, 0.01));
     }
 }
