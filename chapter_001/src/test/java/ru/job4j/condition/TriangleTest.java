@@ -15,7 +15,7 @@ public class TriangleTest {
     @Test
     public void areaOfTriangle() {
         Point point = new Point(1,1);
-       double result = Triangle.area(2, 2, 2);
+        double result = Triangle.area(2, 2, 2);
         double except= 1.73;
         assertThat(result, closeTo(except, 0.01));
     }
