@@ -4,4 +4,4 @@
 *@version $Id$
 *@since 0.1
 */
-package main.java.ru.job4j.max;
+package ru.job4j.max;

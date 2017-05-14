@@ -13,7 +13,6 @@ package ru.job4j.condition;
 
 /***конструктор.*/
  public Point(int x, int y) {
-
 		this.x = x;
         this.y = y;
     }

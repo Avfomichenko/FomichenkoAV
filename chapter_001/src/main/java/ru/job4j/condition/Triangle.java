@@ -1,11 +1,9 @@
 package ru.job4j.condition;
-
 /**
  * @author Fomichenkoav.
  * @version 1
  * @since 02.05.2017
  */
-
 public class Triangle {
   private Point a;
   private Point b;
@@ -17,9 +15,8 @@ public class Triangle {
     this.c = c;
   }
  
-  public double area() {
+  public static double area(double a, double b, double c) {
 	double p = (a + b + c) / 2;
-	return  Math.sqrt(p * (p - a) * (p - b) * (p - c));
-      
+	return  Math.sqrt(p * (a - p) * (p - b) * (p - c));
   }
 }
