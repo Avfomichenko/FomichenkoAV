@@ -17,21 +17,21 @@ public class Point {
         this.y = y;
     }
     /**
-     *√еттер x.
+     *Геттер x.
      *@return y
      */
     public int getX() {
         return this.x;
     }
     /**
-     *√еттер y.
+     *Геттер y.
      *@return y
      */
     public int getY() {
         return this.y;
     }
     /**
-     *ћетод определ¤ющий находитс¤ ли точка на этой фукнции.
+     *Метод определ¤ющий находитс¤ ли точка на этой фукнции.
      *@return y
      *@param  a - координаты точки
      *@param  b - координаты точки
